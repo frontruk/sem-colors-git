@@ -3,6 +3,7 @@ import { Rgba, Hsla } from './formats';
 import { SliderPosition } from './helpers';
 import { ColorPickerService } from './color-picker.service';
 export declare class ColorPickerComponent implements OnInit, OnDestroy, AfterViewInit {
+    private readonly platformId;
     private elRef;
     private cdRef;
     private service;
@@ -65,7 +66,7 @@ export declare class ColorPickerComponent implements OnInit, OnDestroy, AfterVie
     hueSlider: ElementRef;
     alphaSlider: ElementRef;
     dialogElement: ElementRef;
-    constructor(elRef: ElementRef, cdRef: ChangeDetectorRef, service: ColorPickerService);
+    constructor(platformId: any, elRef: ElementRef, cdRef: ChangeDetectorRef, service: ColorPickerService);
     ngOnInit(): void;
     ngOnDestroy(): void;
     ngAfterViewInit(): void;
