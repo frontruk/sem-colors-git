@@ -1,4 +1,4 @@
-import { Injectable, Pipe, NgModule, Component, ViewChild, ViewEncapsulation, ElementRef, ChangeDetectorRef, PLATFORM_ID, Inject, Directive, Input, Output, EventEmitter, HostListener, ApplicationRef, ViewContainerRef, Injector, ReflectiveInjector, ComponentFactoryResolver, ChangeDetectionStrategy, defineInjectable } from '@angular/core';
+import { Injectable, Pipe, NgModule, Directive, Input, Output, EventEmitter, HostListener, ApplicationRef, ElementRef, ViewContainerRef, Injector, ReflectiveInjector, ComponentFactoryResolver, Component, ViewChild, ViewEncapsulation, ChangeDetectorRef, PLATFORM_ID, Inject, ChangeDetectionStrategy, defineInjectable } from '@angular/core';
 import { isPlatformBrowser, CommonModule } from '@angular/common';
 import { DndModule } from 'ng2-dnd';
 import { FormsModule } from '@angular/forms';
