@@ -1,7 +1,6 @@
 export * from './lib/sem-colors.service';
 export * from './lib/container/color-widget/color-widget.component';
 export * from './lib/components/search-colordrop/search-colordrop.component';
-export * from './lib/components/color-list/color-list.component';
 export * from './lib/colorpicker/color-picker.component';
 export * from './lib/colorpicker/color-picker.directive';
 export * from './lib/colorpicker/color-picker.service';
